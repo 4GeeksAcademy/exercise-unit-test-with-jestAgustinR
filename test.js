@@ -22,12 +22,12 @@ test("Dollar to Yen", function(){
     const { FromDollarToYen } = require('./app.js')
     
     // hago mi comparacion (la prueba)
-    expect(FromDollarToYen(3.5)) .toBeCloseTo(447.65); 
+    expect(FromDollarToYen(3.5)) .toBeCloseTo(373.041); 
 })
 test("From Yen to Pound", function(){
     // importo la funcion desde app.js
     const { FromYenToPound } = require('./app.js')
     
     // hago mi comparacion (la prueba)
-    expect(FromYenToPound(3.5)) .toBeCloseTo(2.8); 
+    expect(FromYenToPound(3.5)) .toBeCloseTo(0.021); 
 })

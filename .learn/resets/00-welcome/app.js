@@ -20,13 +20,11 @@ function fromEuroToDollar (euro) {
     return resp;
 }
 function FromDollarToYen (dollars){
-    let euro = dollars / 1.2;
-    let yen = euro * 127.9;
-    return yen;
+    let resp1 = dollars * 127.9
+    return resp1
 }
 function FromYenToPound (yen){
-    let euro = yen / 127.9;
-    let resp3 = euro * 0.8;
-    return resp3;
+    let resp2 = yen * 0.8
+    return resp2
 }
 module.exports = { sum, fromEuroToDollar, FromDollarToYen, FromYenToPound };
